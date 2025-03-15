@@ -22,7 +22,3 @@ datos_temperatura = {
 
 # Llamada a la función y almacenamiento de los resultados
 promedios = calcular_temperatura_promedio(datos_temperatura)
-
-# Impresión de los resultados
-for ciudad, promedio in promedios.items():
-    print(f"Temperatura promedio en {ciudad}: {promedio:.2f}°C")
